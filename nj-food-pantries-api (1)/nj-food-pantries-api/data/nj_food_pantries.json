@@ -1,0 +1,851 @@
+{
+  "metadata": {
+    "title": "New Jersey Food Pantries",
+    "description": "A curated list of food pantries, food banks, and soup kitchens across New Jersey, organized by county. Includes regional/statewide distribution centers and local pantries.",
+    "sources": [
+      "Community FoodBank of New Jersey (cfbnj.org)",
+      "Food Bank of South Jersey (foodbanksj.org)",
+      "NJ State Basic Needs (nj.gov)",
+      "NeedHelpPayingBills.com",
+      "NJ Department of Health"
+    ],
+    "last_updated": "2026-04-24",
+    "note": "Hours and contact information are subject to change. Always call ahead to confirm availability and eligibility requirements."
+  },
+  "regional_food_banks": [
+    {
+      "name": "Community FoodBank of New Jersey – Main (Southern Branch)",
+      "address": "6735 Black Horse Pike",
+      "city": "Egg Harbor Township",
+      "state": "NJ",
+      "zip": "08234",
+      "phone": "(609) 383-8843",
+      "website": "https://cfbnj.org",
+      "counties_served": ["Atlantic", "Cumberland"],
+      "notes": "Does not generally serve the public directly; partners with regional pantries across NJ. Text 'FindFood' to 908-224-7776 to locate partner pantries."
+    },
+    {
+      "name": "Community FoodBank of New Jersey – Hillside Branch",
+      "address": "31 Evans Terminal Rd",
+      "city": "Hillside",
+      "state": "NJ",
+      "zip": "07205",
+      "phone": "(908) 355-3663",
+      "website": "https://cfbnj.org",
+      "counties_served": ["Essex", "Hudson", "Morris", "Middlesex", "Union", "Bergen", "Cape May", "Hunterdon", "Mercer", "Passaic", "Somerset", "Sussex", "Warren"],
+      "notes": "Feeding America partner. Partners with 800+ agencies statewide. Offers Nutrition Education, Cooking Classes, and baby pantry."
+    },
+    {
+      "name": "Food Bank of South Jersey",
+      "address": "1501 John Tipton Blvd.",
+      "city": "Pennsauken",
+      "state": "NJ",
+      "zip": "08110",
+      "phone": "(856) 662-4884",
+      "website": "https://foodbanksj.org",
+      "counties_served": ["Burlington", "Camden", "Gloucester", "Salem"],
+      "notes": "Works with 300+ partner agencies. Offers drive-thru food banks, holiday food baskets, SNAP outreach, and Farm 2 School programs."
+    },
+    {
+      "name": "Fulfill (Food Bank of Monmouth & Ocean Counties)",
+      "address": "3300 Route 66",
+      "city": "Neptune",
+      "state": "NJ",
+      "zip": "07753",
+      "phone": "(732) 918-2600",
+      "website": "https://fulfillnj.org",
+      "counties_served": ["Monmouth", "Ocean"],
+      "notes": "Feeding America partner. Offers free fruits, vegetables, dairy, meats, baby formula, SNAP enrollment assistance."
+    },
+    {
+      "name": "Mercer Street Friends Food Bank",
+      "address": "3 Graphics Drive",
+      "city": "Trenton",
+      "state": "NJ",
+      "zip": "08628",
+      "phone": "(609) 278-5542",
+      "website": "https://mercerstreetfriends.org",
+      "counties_served": ["Mercer"],
+      "notes": "Also provides SNAP and WIC referrals. Additional location at 824 Sylvia St., Ewing, NJ 08628. Phone: 609-406-0503."
+    },
+    {
+      "name": "NORWESCAP Food Bank",
+      "address": "201 Broad St",
+      "city": "Phillipsburg",
+      "state": "NJ",
+      "zip": "08865",
+      "phone": "(908) 454-4322",
+      "website": "https://norwescap.org",
+      "counties_served": ["Hunterdon", "Sussex", "Warren"],
+      "notes": "Community action agency. Provides food boxes, holiday meals, SNAP applications, baby formula, and senior assistance."
+    },
+    {
+      "name": "Philabundance",
+      "address": "3616 S. Galloway Street",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19148",
+      "phone": "(215) 339-0900",
+      "website": "https://philabundance.org",
+      "counties_served": ["Burlington", "Camden", "Gloucester"],
+      "notes": "Headquartered in PA but serves southern NJ. Offers Senior Brown Bag/Food Box Distribution, WIC vouchers, SNAP Outreach, and free pet food bank."
+    },
+    {
+      "name": "Food Bank Network of Somerset County",
+      "address": "409 Mountain Ave",
+      "city": "Bound Brook",
+      "state": "NJ",
+      "zip": "08805",
+      "phone": "(732) 560-1813",
+      "website": null,
+      "counties_served": ["Somerset"],
+      "notes": "Provides perishable and canned goods to children, seniors, and low-income families. Offers holiday meals."
+    }
+  ],
+  "pantries_by_county": {
+    "Atlantic": [
+      {
+        "name": "Community FoodBank of NJ – Atlantic County Mobile Pantries",
+        "address": "Various Locations (Egg Harbor City, Galloway, Absecon, Pleasantville, Egg Harbor Township)",
+        "city": "Multiple",
+        "state": "NJ",
+        "zip": null,
+        "phone": "(609) 383-8843",
+        "hours": "8:15am–12:30pm",
+        "website": "https://cfbnj.org",
+        "notes": "Mobile pantry serving Atlantic County motel locations and surrounding areas."
+      }
+    ],
+    "Bergen": [
+      {
+        "name": "St. Cecilia Church / Office of Concern",
+        "address": "85 Demarest Avenue",
+        "city": "Englewood",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-794-5327",
+        "phone_alt": "201-568-1465",
+        "hours": null,
+        "website": null,
+        "notes": "Provides free food, hygiene items, baby formula. Processes WIC applications. Serves immigrants and Spanish speakers."
+      },
+      {
+        "name": "Center for Food Action – Englewood",
+        "address": "192 W. Demarest Avenue",
+        "city": "Englewood",
+        "state": "NJ",
+        "zip": "07631",
+        "phone": "201-569-1804",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": "Free food pantry, emergency utility and housing assistance, budgeting and nutrition counseling, SNAP enrollment."
+      },
+      {
+        "name": "Center for Food Action – Mahwah",
+        "address": "90 Ridge Road",
+        "city": "Mahwah",
+        "state": "NJ",
+        "zip": "07430",
+        "phone": "201-529-2029",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": "Free groceries, household items, personal care products."
+      },
+      {
+        "name": "Center for Food Action – Carlstadt",
+        "address": "301 Hoboken Road",
+        "city": "Carlstadt",
+        "state": "NJ",
+        "zip": "07072",
+        "phone": "201-933-4268",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": "Serves Carlstadt, East Rutherford, Lyndhurst, Rutherford, North Arlington, Wood-Ridge."
+      },
+      {
+        "name": "Center for Food Action – Fairview",
+        "address": "239 Anderson Avenue",
+        "city": "Fairview",
+        "state": "NJ",
+        "zip": "07022",
+        "phone": "201-945-5831",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": null
+      },
+      {
+        "name": "Center for Food Action – Hackensack",
+        "address": "316 First Street",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zip": "07601",
+        "phone": "201-883-9375",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": null
+      },
+      {
+        "name": "Center for Food Action – Saddle Brook",
+        "address": "224 Midland Ave.",
+        "city": "Saddle Brook",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-703-9857",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": null
+      },
+      {
+        "name": "Center for Food Action – Palisades Park",
+        "address": "451 Grand Avenue",
+        "city": "Palisades Park",
+        "state": "NJ",
+        "zip": "07650",
+        "phone": "201-242-0019",
+        "hours": null,
+        "website": "https://cfanj.org",
+        "notes": null
+      },
+      {
+        "name": "Mt Zion Baptist Church",
+        "address": "22A Sand Rd",
+        "city": "Westwood",
+        "state": "NJ",
+        "zip": null,
+        "phone": "917-887-0131",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "Faith Reformed Church",
+        "address": "95 Washington Street",
+        "city": "Lodi",
+        "state": "NJ",
+        "zip": null,
+        "phone": "646-596-6408",
+        "hours": null,
+        "website": null,
+        "notes": "Emergency food bank and soup kitchen."
+      },
+      {
+        "name": "North Jersey Vineyard Church",
+        "address": "310 Phillips Ave",
+        "city": "South Hackensack",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-785-7270",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "Helping Hands of Teaneck",
+        "address": "191 The Plaza",
+        "city": "Teaneck",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-357-2545",
+        "hours": null,
+        "website": null,
+        "notes": "Free dry and canned goods, paper products, holiday meal groceries, baby formula."
+      },
+      {
+        "name": "Presentation Church",
+        "address": "271 West Saddle River Rd",
+        "city": "Upper Saddle River",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-638-5549",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "Jewish Family Services of Bergen County",
+        "address": "1485 Teaneck Rd",
+        "city": "Teaneck",
+        "state": "NJ",
+        "zip": "07666",
+        "phone": "(201) 837-9090",
+        "hours": null,
+        "website": null,
+        "notes": "Emergency food and financial help, scholarship referrals. Serves immigrants and refugees."
+      },
+      {
+        "name": "St. Francis de Sales",
+        "address": "125 Union Street",
+        "city": "Lodi",
+        "state": "NJ",
+        "zip": null,
+        "phone": "(973) 779-4330",
+        "hours": null,
+        "website": null,
+        "notes": "Shelf stable milk, fruits, vegetables, rice, pasta."
+      },
+      {
+        "name": "All Access Community Development",
+        "address": "351 First Street",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zip": null,
+        "phone": "917-863-4416",
+        "hours": null,
+        "website": null,
+        "notes": "Surplus commodities, Meals on Wheels referrals. Assists immigrants."
+      },
+      {
+        "name": "The Food Brigade",
+        "address": "185 W. Madison Ave",
+        "city": "Dumont",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-614-4414",
+        "hours": null,
+        "website": "https://foodbrigade.org",
+        "notes": "Client-choice 'Community Market' food pantry. Also serves Hudson and Passaic counties."
+      },
+      {
+        "name": "Greater Bergen Community Action Agency",
+        "address": "392 Main St",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zip": "07601",
+        "phone": "201-968-0200",
+        "hours": null,
+        "website": null,
+        "notes": "Soup kitchen, employment assistance, SNAP enrollment, WIC vouchers."
+      },
+      {
+        "name": "Grace Redeemer Church",
+        "address": "21 Harristown Road",
+        "city": "Glen Rock",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-704-2676",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "North Side Food Pantry",
+        "address": "90 Jefferson Street",
+        "city": "Paterson",
+        "state": "NJ",
+        "zip": "07522",
+        "phone": "(201) 891-1782",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "Family Promise of Bergen County",
+        "address": "100 Dayton Street",
+        "city": "Ridgewood",
+        "state": "NJ",
+        "zip": "07450",
+        "phone": "201-833-8009",
+        "hours": null,
+        "website": null,
+        "notes": "Primarily serves working homeless families with children."
+      },
+      {
+        "name": "Faith and Hope Food Pantry at Christ Church",
+        "address": "480 Warwick Avenue",
+        "city": "Teaneck",
+        "state": "NJ",
+        "zip": "07666",
+        "phone": "201-833-4502",
+        "hours": null,
+        "website": null,
+        "notes": "Canned meats, personal hygiene items, soup, pasta, baby formula, Ensure for seniors."
+      },
+      {
+        "name": "Varick Memorial Food Pantry",
+        "address": "120 Atlantic St.",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-674-7024",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "St. John the Evangelist Catholic Church",
+        "address": "29 N Washington Ave",
+        "city": "Bergenfield",
+        "state": "NJ",
+        "zip": "07621",
+        "phone": "(201) 384-0101",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "Salvation Army – Second Reform Church",
+        "address": "36 Union Street",
+        "city": "Hackensack",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-336-6000",
+        "hours": "Tues/Thurs 10:00AM–1:00PM; Hot meals Sundays 12:30PM",
+        "website": null,
+        "notes": "Soup kitchen, holiday meals, financial aid."
+      },
+      {
+        "name": "Salvation Army – Englewood",
+        "address": "380 S. VanBrunt St",
+        "city": "Englewood",
+        "state": "NJ",
+        "zip": "07631",
+        "phone": "(201) 503-9400",
+        "hours": null,
+        "website": null,
+        "notes": "Baby formula, Christmas food baskets, Angel Tree gift program, thrift store."
+      },
+      {
+        "name": "St Joseph's Church",
+        "address": "115 E. Fort Lee Road",
+        "city": "Bogota",
+        "state": "NJ",
+        "zip": null,
+        "phone": "201-438-3200",
+        "hours": null,
+        "website": null,
+        "notes": "Food, referrals, Christmas and Thanksgiving meals."
+      },
+      {
+        "name": "Epiphany Roman Catholic Church / Cliffside Park Borough Hall",
+        "address": "247 Knox Ave",
+        "city": "Cliffside Park",
+        "state": "NJ",
+        "zip": "07010",
+        "phone": "201-943-7320",
+        "hours": null,
+        "website": null,
+        "notes": "Services Cliffside Park, Fairview, Edgewater, Fort Lee."
+      },
+      {
+        "name": "St. Margaret of Cortona Food Pantry",
+        "address": "31 Chamberlain Avenue",
+        "city": "Little Ferry",
+        "state": "NJ",
+        "zip": "07643",
+        "phone": "201-641-2988",
+        "hours": null,
+        "website": null,
+        "notes": "Non-perishable food."
+      },
+      {
+        "name": "Holy Rosary Church Pantry",
+        "address": "365 Undercliff Ave",
+        "city": "Edgewater",
+        "state": "NJ",
+        "zip": "07020",
+        "phone": "(201) 945-6329",
+        "hours": null,
+        "website": null,
+        "notes": "Combined with Meals on Wheels for seniors and homebound."
+      },
+      {
+        "name": "St. John The Baptist Church Food Pantry",
+        "address": "239 Anderson Ave",
+        "city": "Fairview",
+        "state": "NJ",
+        "zip": "07022",
+        "phone": "201-461-7241",
+        "hours": null,
+        "website": null,
+        "notes": null
+      },
+      {
+        "name": "Lyndhurst Food Pantry",
+        "address": "253 Stuyvesant Avenue",
+        "city": "Lyndhurst",
+        "state": "NJ",
+        "zip": "07071",
+        "phone": "201-804-2500",
+        "hours": "Mon–Thurs 1:30–4:00PM",
+        "website": null,
+        "notes": "Lyndhurst residents only. Administered by Lyndhurst Health Department."
+      },
+      {
+        "name": "Friends for Life (HIV/AIDS clients only)",
+        "address": "1576 Palisade Avenue",
+        "city": "Fort Lee",
+        "state": "NJ",
+        "zip": null,
+        "phone": "973-773-2444",
+        "hours": "Mon/Fri by appointment; Tues/Wed/Thurs 10:00AM–3:00PM",
+        "website": null,
+        "notes": "Serves HIV/AIDS clients only."
+      },
+      {
+        "name": "Calvary Baptist Food and Clothing Pantry",
+        "address": "419 Harrison Avenue",
+        "city": "Garfield",
+        "state": "NJ",
+        "zip": null,
+        "phone": "973-253-8557",
+        "hours": "Mon–Fri 10:00AM–4:00PM",
+        "website": null,
+        "notes": "Clothing for work and school, holiday meals and gifts."
+      },
+      {
+        "name": "Loaves and Fishes Interfaith Food Pantry",
+        "address": "66 Palisade Ave",
+        "city": "Garfield",
+        "state": "NJ",
+        "zip": "07026",
+        "phone": "(973) 253-8557",
+        "hours": null,
+        "website": null,
+        "notes": null
+      }
+    ],
+    "Burlington": [
+      {
+        "name": "Fawn Lake Village Distribution",
+        "address": "1004 US-206",
+        "city": "Shamong",
+        "state": "NJ",
+        "zip": "08088",
+        "phone": null,
+        "hours": "1st Tuesday 11:00AM–12:00PM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey distribution site."
+      },
+      {
+        "name": "Kennedy Park Community Center",
+        "address": "522 Wood St",
+        "city": "Burlington City",
+        "state": "NJ",
+        "zip": "08016",
+        "phone": null,
+        "hours": "2nd Saturday 10:00AM–11:30AM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey distribution site."
+      },
+      {
+        "name": "Pauline B. Grant Community CME Church",
+        "address": "293 Fort Dix Rd",
+        "city": "Pemberton",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "2nd Saturday 10:00AM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey distribution site."
+      }
+    ],
+    "Camden": [
+      {
+        "name": "Bethel-Hosanna Church (Hope Mobile)",
+        "address": "3465 Haddonfield Rd",
+        "city": "Pennsauken",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "1st Wednesday 10:00AM–2:00PM",
+        "website": "http://www.foodisimportant.org",
+        "notes": "Food Is Important Hope Mobile distribution."
+      },
+      {
+        "name": "Forest Hill School Pantry",
+        "address": "1625 Wildwood Ave",
+        "city": "Camden",
+        "state": "NJ",
+        "zip": "08103",
+        "phone": null,
+        "hours": "4th Wednesday 10:00AM–12:00PM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey school pantry."
+      },
+      {
+        "name": "HB Wilson School Pantry",
+        "address": "2250 S. 8th St",
+        "city": "Camden",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "3rd Monday 10:00AM–12:00PM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey school pantry."
+      },
+      {
+        "name": "Mastery HS of Camden School Pantry",
+        "address": "800 Erie St",
+        "city": "Camden",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "4th Monday 8:00AM–11:00AM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey school pantry."
+      },
+      {
+        "name": "Northgate II Distribution",
+        "address": "500 N 7th St",
+        "city": "Camden",
+        "state": "NJ",
+        "zip": "08103",
+        "phone": null,
+        "hours": "2nd Friday 9:00AM–11:00AM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey distribution site."
+      },
+      {
+        "name": "Prestige AMDC of Cherry Hill",
+        "address": "53 Haddonfield Rd, Suite 312",
+        "city": "Cherry Hill",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "4th Tuesday 12:00PM–1:00PM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey distribution site."
+      },
+      {
+        "name": "Wholesome Riches at Wiggins Center",
+        "address": "400 Mt Vernon St",
+        "city": "Camden",
+        "state": "NJ",
+        "zip": "08103",
+        "phone": null,
+        "hours": "2nd Friday 10:00AM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey distribution site."
+      }
+    ],
+    "Cape_May": [
+      {
+        "name": "Wildwood Housing Authority Distribution",
+        "address": "3700 New Jersey Avenue",
+        "city": "Wildwood",
+        "state": "NJ",
+        "zip": "08260",
+        "phone": "(609) 383-8843",
+        "hours": "8:30AM–10:30AM",
+        "website": "https://cfbnj.org",
+        "notes": "CFBNJ mobile pantry."
+      },
+      {
+        "name": "North Cape May Shopping Center Distribution",
+        "address": "3860 Bayshore Rd",
+        "city": "North Cape May",
+        "state": "NJ",
+        "zip": null,
+        "phone": "(609) 383-8843",
+        "hours": null,
+        "website": "https://cfbnj.org",
+        "notes": "CFBNJ mobile pantry."
+      },
+      {
+        "name": "Ventnor City Distribution",
+        "address": "4910 Wellington Ave (Dollar General)",
+        "city": "Ventnor City",
+        "state": "NJ",
+        "zip": "08406",
+        "phone": "(609) 383-8843",
+        "hours": "9:30AM–11:30AM",
+        "website": "https://cfbnj.org",
+        "notes": "CFBNJ mobile pantry."
+      }
+    ],
+    "Cumberland": [
+      {
+        "name": "Upper Deerfield Municipal Building Distribution",
+        "address": "1325 NJ-77",
+        "city": "Upper Deerfield",
+        "state": "NJ",
+        "zip": "08302",
+        "phone": "(609) 383-8843",
+        "hours": "9:30AM–11:30AM",
+        "website": "https://cfbnj.org",
+        "notes": "CFBNJ mobile pantry."
+      },
+      {
+        "name": "Cumberland County Motel Distributions",
+        "address": "Various Locations",
+        "city": "Millville/Vineland",
+        "state": "NJ",
+        "zip": null,
+        "phone": "(609) 383-8843",
+        "hours": "8:30AM–11:30AM",
+        "website": "https://cfbnj.org",
+        "notes": "CFBNJ mobile pantry serving motel residents."
+      }
+    ],
+    "Essex": [
+      {
+        "name": "Iglesia Pentecostal El Paraiso",
+        "address": "63 Mt. Pleasant Avenue",
+        "city": "Newark",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "Every other Thursday",
+        "website": null,
+        "notes": "Provides 3–4 bags of food (milk, juice, eggs, canned goods)."
+      }
+    ],
+    "Gloucester": [
+      {
+        "name": "Alliances of Empowerment in Housing (Hope Mobile)",
+        "address": "1400 Crescent Blvd",
+        "city": "Gloucester City",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "4th Wednesday 9:00AM–11:00AM",
+        "website": "https://foodbanksj.org",
+        "notes": "Food Bank of South Jersey Hope Mobile distribution."
+      },
+      {
+        "name": "South Jersey Dream Center",
+        "address": "West Deptford",
+        "city": "West Deptford",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "Wednesdays 12:00PM–2:30PM",
+        "website": null,
+        "notes": "Curbside pickup by appointment only. Groceries and baby items."
+      }
+    ],
+    "Hudson": [
+      {
+        "name": "Let's Celebrate",
+        "address": "46 Fairview Avenue",
+        "city": "Jersey City",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "Daily",
+        "website": null,
+        "notes": "Hot food provided daily."
+      }
+    ],
+    "Mercer": [
+      {
+        "name": "Mercer Street Friends – Ewing",
+        "address": "824 Sylvia St.",
+        "city": "Ewing",
+        "state": "NJ",
+        "zip": "08628",
+        "phone": "609-406-0503",
+        "hours": null,
+        "website": "https://mercerstreetfriends.org",
+        "notes": "Only serves Mercer County residents. WIC and food stamp referrals."
+      },
+      {
+        "name": "Crisis Ministry of Princeton and Trenton",
+        "address": "120 E Hanover St",
+        "city": "Trenton",
+        "state": "NJ",
+        "zip": "08608",
+        "phone": "609-396-9355",
+        "hours": null,
+        "website": null,
+        "notes": "Hot meals, lunch, clothing, diapers, material assistance."
+      }
+    ],
+    "Passaic": [
+      {
+        "name": "Center for Food Action – Upper Passaic Appointment Distribution",
+        "address": "Various Northern Passaic County Sites",
+        "city": "Multiple",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "Once every three weeks, by appointment",
+        "website": "https://cfanj.org",
+        "notes": "Box of non-perishable food plus fresh produce, meat, dairy, and bread as available. Login or call to request an appointment."
+      },
+      {
+        "name": "Eva's Village – Community Kitchen",
+        "address": "Eva's Village, Paterson",
+        "city": "Paterson",
+        "state": "NJ",
+        "zip": null,
+        "phone": null,
+        "hours": "Breakfast Mon–Fri 8:30AM; Lunch Mon–Fri 12:00PM & 1:00PM; Sat–Sun Lunch 12:00PM",
+        "website": "https://evasvillage.org",
+        "notes": "Hot meals served daily. Also offers shelter, recovery, and social services."
+      }
+    ],
+    "Somerset": [
+      {
+        "name": "Franklin Township Food Bank",
+        "address": "224 Churchill Ave",
+        "city": "Somerset",
+        "state": "NJ",
+        "zip": "08873",
+        "phone": "(732) 246-0009",
+        "hours": null,
+        "website": null,
+        "notes": "Serves Franklin Township area. Partners with local churches and charities. Fresh fruits, frozen foods."
+      }
+    ],
+    "Sussex": [
+      {
+        "name": "Sussex County Division of Social Services",
+        "address": "83 Spring St",
+        "city": "Newton",
+        "state": "NJ",
+        "zip": null,
+        "phone": "973-383-3600",
+        "hours": "Mon–Fri 8:30AM–4:30PM",
+        "website": null,
+        "notes": "Non-perishable food items, hygiene products, and pet food (when available)."
+      }
+    ],
+    "Warren": [
+      {
+        "name": "Washington Community Food Pantry",
+        "address": "40 East Church Street (First Presbyterian Church of Washington)",
+        "city": "Washington",
+        "state": "NJ",
+        "zip": null,
+        "phone": "908-689-2547",
+        "hours": null,
+        "website": null,
+        "notes": "Call to confirm eligibility before visiting."
+      }
+    ]
+  },
+  "additional_resources": [
+    {
+      "name": "NJ 211 Food Pantry & Soup Kitchen Directory",
+      "description": "Statewide searchable directory. Enter ZIP or address to find local pantries, soup kitchens, and government benefits.",
+      "website": "https://nj211.org/food-pantries-and-soup-kitchens",
+      "phone": "211"
+    },
+    {
+      "name": "NJ State Basic Needs – Get Food This Week",
+      "description": "State government page with statewide search for food pantries and hot meal sites, including hours and contact info.",
+      "website": "https://www.nj.gov/basicneeds/food/get-food-this-week.shtml",
+      "phone": null
+    },
+    {
+      "name": "CFBNJ Food Finder (Text Line)",
+      "description": "Text 'FindFood' (English) or 'Comida' (Spanish) to 908-224-7776 to find nearby CFBNJ partner food pantries.",
+      "website": "https://cfbnj.org/find-foods-services/",
+      "phone": "908-224-7776"
+    },
+    {
+      "name": "Feeding America – New Jersey",
+      "description": "National network with additional NJ food bank locations and resources.",
+      "website": "https://www.feedingamerica.org/hunger-in-america/new-jersey",
+      "phone": "(908) 355-3663"
+    },
+    {
+      "name": "Northeast Organic Farming Association of NJ",
+      "description": "Low-cost or free fresh produce distribution.",
+      "address": "334 River Rd, Hillsborough Township, NJ 08844",
+      "website": null,
+      "phone": "(908) 371-1111"
+    }
+  ]
+}

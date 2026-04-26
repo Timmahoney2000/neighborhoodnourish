@@ -1,0 +1,40 @@
+
+
+nav {
+    background-color: #9BB4C0;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul li a {
+    color: #703B3B;
+display: flexbox;
+flex-direction: center;
+}
+
+hero {
+
+}
+
+body {
+    background-color: #E1D0B3;
+    color: #703B3B;
+}
+
+#form {
+    display: flexbox;
+}
+
+.sections {
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1 {
+    color: #124076;
+}
+
+h3 {
+    color: white;
+}
