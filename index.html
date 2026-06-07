@@ -1,39 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neighborhood Nourish</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neighborhood Nourish — Find Free Meals Near You</title>
+    <meta name="description" content="Locate free meals and food resources near you, fast." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Nunito:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+ 
+  <body>
+ 
+    <!-- Site Header -->
+    <header class="site-header" role="banner">
+      <span class="site-header__logo" aria-label="Neighborhood Nourish home">
+        Neighborhood Nourish
+      </span>
+ 
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="site-nav__list">
+          <li><a href="#" aria-current="page">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-</nav>
-
-<hero>
-    Find Free Meals & Food Near you - Fast
-
-    <div id="form">
-    <form>
-  <label for="username">Enter Zip Code:</label>
-  <input type="text" id="username" name="username">
-</form>
-</div>
-</hero>
-
-<body>
-    <h1>Neighborhood Nourish</h1>
-    <h3>No One should Go Hungry</h3>
-<div class="sections">
-    <section>Stuff<rssapp-carousel id="tyBt5y2PUqcHMytp"></rssapp-carousel><script src="https://widget.rss.app/v1/carousel.js" type="text/javascript" async></script></section>
-
-    <section>hello </section>
-    </div>
-    <script>script.js</script>
-</body>
+      </nav>
+    </header>
+ 
+    <!-- Main -->
+    <main id="main-content">
+ 
+      <!-- Hero / Search -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__inner">
+          <p class="hero__eyebrow">Free &amp; local</p>
+          <h1 class="hero__title" id="hero-title">Neighborhood Nourish</h1>
+          <p class="hero__subtitle">Find free meals &amp; food resources near you — fast.</p>
+ 
+          <div class="search-form" role="search">
+            <label for="zipInput" class="sr-only">Enter your ZIP code</label>
+            <input
+              type="text"
+              id="zipInput"
+              class="search-form__input"
+              placeholder="Enter ZIP code…"
+              inputmode="numeric"
+              pattern="[0-9]{5}"
+              maxlength="5"
+              autocomplete="postal-code"
+              aria-label="ZIP code"
+            />
+            <div class="search-form__actions">
+              <button id="searchBtn" class="btn btn--primary" type="button">
+                🔍 Find Food
+              </button>
+              <button id="useLocationBtn" class="btn btn--secondary" type="button" aria-label="Use my current location">
+                📍 Use My Location
+              </button>
+            </div>
+          </div>
+ 
+          <div class="filters" role="group" aria-label="Quick filters">
+            <button class="filter-chip" data-filter="open"   type="button" aria-pressed="false">Open Now</button>
+            <button class="filter-chip" data-filter="meals"  type="button" aria-pressed="false">🍲 Hot Meals</button>
+            <button class="filter-chip" data-filter="pantry" type="button" aria-pressed="false">📦 Food Pantry</button>
+          </div>
+        </div>
+      </section>
+ 
+      <!-- Results & Map -->
+      <div class="main-content">
+ 
+        <section class="results-section" aria-labelledby="results-heading" aria-live="polite">
+          <h2 class="section-title" id="results-heading">Nearby Locations</h2>
+          <ul id="resultsList" aria-label="Food resource results"></ul>
+          <p id="noResults" class="empty-state" aria-hidden="true">
+            No locations found nearby. Try a different ZIP code or broaden your filters.
+          </p>
+        </section>
+ 
+        <section class="map-section" aria-label="Map of nearby food resources">
+          <div id="map" role="application" aria-label="Interactive map"></div>
+        </section>
+ 
+        <section class="news-section" aria-labelledby="news-heading">
+          <h2 class="section-title" id="news-heading">Community Updates</h2>
+          <p class="news-intro">Latest news and announcements from local food programs.</p>
+          <rssapp-carousel id="tyBt5y2PUqcHMytp"></rssapp-carousel>
+          <script src="https://widget.rss.app/v1/carousel.js" async></script>
+        </section>
+ 
+      </div>
+    </main>
+ 
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+      <p>
+        <strong>Neighborhood Nourish</strong> &mdash;
+        Connecting neighbors to nourishment. &copy; <span id="year"></span>
+      </p>
+    </footer>
+ 
+    <script src="script.js"></script>
+ 
+  </body>
 </html>
