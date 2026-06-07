@@ -258,6 +258,8 @@ async function reverseGeocode(lat, lng) {
   .split(/\s+/)
   .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
   .join("_");
+
+  console.log("Nominatim raw county:", raw);
 }
  
  
