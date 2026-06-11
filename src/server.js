@@ -26,13 +26,25 @@ app.use(cors({
   origin: (origin, callback) => {
     // Allow requests with no origin (curl, Postman, server-to-server)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) return callback(null, true);
+
+    // Allow any Vercel deployment of this project
+    if (
+      origin === "https://neighborhoodnourish.vercel.app" ||
+      origin.endsWith("-tims-projects-43918398.vercel.app") ||
+      origin === "http://localhost:5500" ||
+      origin === "http://127.0.0.1:5500" ||
+      origin === "http://localhost:3000" ||
+      origin === "http://127.0.0.1:3000"
+    ) {
+      return callback(null, true);
+    }
+
     callback(new Error(`CORS: origin "${origin}" is not allowed`));
   },
-
   methods: ["GET"],
   allowedHeaders: ["Content-Type"],
 }));
+   
 
 app.use(express.json());
 
