@@ -11,8 +11,8 @@
 const fs   = require("fs");
 const path = require("path");
 
-const DATA_PATH   = path.join(__dirname, "data", "nj_food_pantries.json");
-const BACKUP_PATH = path.join(__dirname, "data", "nj_food_pantries.backup.json");
+const DATA_PATH   = path.join(__dirname, "..", "src", "data", "nj_food_pantries.json");
+const BACKUP_PATH = path.join(__dirname, "..", "src", "data", "nj_food_pantries.backup.json");
 
 function main() {
   console.log("📂 Loading data…");
