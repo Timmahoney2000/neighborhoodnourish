@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const data = require("../../data/nj_food_pantries.json");
+const data = require("../data/nj_food_pantries.json");
 
 // GET /api/resources
 router.get("/", (req, res) => {

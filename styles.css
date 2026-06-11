@@ -412,6 +412,39 @@ button {
     box-shadow: var(--shadow-card-hover);
 }
 
+/* -- Loading Spinner -- */
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+.result-card--loading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    grid-column: 1 / -1;
+    pointer-events: none;
+}
+
+.result-card--loading .result-card__name {
+    animation: pulse 1.4s var(--ease-out) infinite;
+}
+
+.spinner {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border: 3px solid var(--color-border);
+    border-top-color: var(--color-green-mid);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
 .result-card__name {
     font-family: var(--font-display);
     font-size: 1.05rem;

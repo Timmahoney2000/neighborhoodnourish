@@ -4,7 +4,7 @@
  
  
 // ── 1. Config ──────────────────────────────────────────────────────────────────
-const API_BASE = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+const API_BASE = window.location.hostname === "localhost" || window.location.hostname === "https://neighborhoodnourish.vercel.app/api"
 ? "http://localhost:3000/api"
 : "https://neighborhoodnourish.vercel.app/api";
  
@@ -94,8 +94,11 @@ function updateResultsHeading(count) {
 function showLoading() {
   resultsList.innerHTML = `
     <li class="result-card result-card--loading" aria-label="Loading results">
+    <div class="spinner" aria-hidden="true"></div>
+    <div>
       <div class="result-card__name">Searching…</div>
       <p class="result-card__meta">Finding food resources near you.</p>
+      </div>
     </li>`;
   setEmptyState(false);
 }
