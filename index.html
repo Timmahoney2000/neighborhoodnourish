@@ -10,34 +10,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Nunito:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
- 
+
   <body>
- 
+
     <!-- Site Header -->
     <header class="site-header" role="banner">
       <span class="site-header__logo" aria-label="Neighborhood Nourish home">
         Neighborhood Nourish
       </span>
- 
+
       <nav class="site-nav" aria-label="Primary navigation">
         <ul class="site-nav__list">
-          <li><a href="#" aria-current="page">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#hero" aria-current="page">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
- 
+
     <!-- Main -->
     <main id="main-content">
- 
+
       <!-- Hero / Search -->
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
         <div class="hero__inner">
           <p class="hero__eyebrow">Free &amp; local</p>
           <h1 class="hero__title" id="hero-title">Neighborhood Nourish</h1>
           <p class="hero__subtitle">Find free meals &amp; food resources near you — fast.</p>
- 
+
           <div class="search-form" role="search">
             <label for="zipInput" class="sr-only">Enter your ZIP code</label>
             <input
@@ -60,7 +60,7 @@
               </button>
             </div>
           </div>
- 
+
           <div class="filters" role="group" aria-label="Quick filters">
             <button class="filter-chip" data-filter="open"   type="button" aria-pressed="false">Open Now</button>
             <button class="filter-chip" data-filter="meals"  type="button" aria-pressed="false">🍲 Hot Meals</button>
@@ -68,10 +68,10 @@
           </div>
         </div>
       </section>
- 
+
       <!-- Results & Map -->
       <div class="main-content">
- 
+
         <section class="results-section" aria-labelledby="results-heading" aria-live="polite">
           <h2 class="section-title" id="results-heading">Nearby Locations</h2>
           <ul id="resultsList" aria-label="Food resource results"></ul>
@@ -79,21 +79,63 @@
             No locations found nearby. Try a different ZIP code or broaden your filters.
           </p>
         </section>
- 
+
         <section class="map-section" aria-label="Map of nearby food resources">
           <div id="map" role="application" aria-label="Interactive map"></div>
         </section>
- 
+
         <section class="news-section" aria-labelledby="news-heading">
           <h2 class="section-title" id="news-heading">Community Updates</h2>
           <p class="news-intro">Latest news and announcements from local food programs.</p>
           <rssapp-carousel id="tyBt5y2PUqcHMytp"></rssapp-carousel>
           <script src="https://widget.rss.app/v1/carousel.js" async></script>
         </section>
- 
+
+        <!-- About -->
+        <section class="about-section" id="about" aria-labelledby="about-heading">
+          <h2 class="section-title" id="about-heading">About</h2>
+          <div class="about__body">
+            <p>
+              Neighborhood Nourish was built by <strong>Timothy J. Mahoney</strong> with one goal
+              in mind: making it easier for people in New Jersey to find the food resources they
+              need, close to home.
+            </p>
+            <p>
+              Timothy spent 15 years as a chef, and his culinary journey began at
+              <a href="https://www.elijahspromise.org" target="_blank" rel="noopener noreferrer">Elijah's Promise</a>
+              in New Brunswick, NJ — a renowned soup kitchen that pairs a culinary school with
+              a community dining room, training students while feeding neighbors in need. That
+              experience left a lasting impression.
+            </p>
+            <p>
+              This site is an extension of that mission. By bringing together food pantries,
+              hot meal programs, and regional food banks across all 21 New Jersey counties into
+              one searchable directory, Neighborhood Nourish helps connect people with the
+              resources closest to them — quickly and without barriers.
+            </p>
+            <p>
+              No one should go hungry while help is nearby.
+            </p>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+          <h2 class="section-title" id="contact-heading">Contact</h2>
+          <div class="contact__body">
+            <p>
+              Have a food resource that isn't listed? Found outdated information?
+              Or just want to reach out? Timothy would love to hear from you.
+            </p>
+            <a class="contact__link" href="mailto:timmahoney2000@gmail.com">
+              ✉️ timmahoney2000@gmail.com
+            </a>
+          </div>
+        </section>
+
       </div>
     </main>
- 
+
     <!-- Footer -->
     <footer class="site-footer" role="contentinfo">
       <p>
@@ -101,8 +143,8 @@
         Connecting neighbors to nourishment. &copy; <span id="year"></span>
       </p>
     </footer>
- 
+
     <script src="script.js"></script>
- 
+
   </body>
 </html>

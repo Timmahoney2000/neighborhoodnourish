@@ -939,17 +939,6 @@
         "lng": -74.2122756
       },
       {
-        "name": "Astoria Food Pantry",
-        "address": null,
-        "city": null,
-        "state": "NJ",
-        "zip": null,
-        "phone": null,
-        "hours": null,
-        "website": null,
-        "notes": null
-      },
-      {
         "name": "North Hudson Community Action Corporation",
         "address": "7007 Polk Street",
         "city": "Guttenberg",
@@ -1265,14 +1254,16 @@
       },
       {
         "name": "RCBC Food Pantry",
-        "address": null,
-        "city": null,
+        "address": "300 College Drive",
+        "city": "Mount Laurel",
         "state": "NJ",
-        "zip": null,
+        "zip": "08054",
         "phone": null,
         "hours": null,
         "website": null,
-        "notes": null
+        "notes": null,
+        "lat": 39.9561,
+        "lng": -74.9157
       },
       {
         "name": "Grace Bible Church Food Pantry",
@@ -1550,13 +1541,15 @@
       {
         "name": "Spanish American Social Cultural Association",
         "address": "249 John F Kennedy Way",
-        "city": "Ste 222 Willingboro",
+        "city": "Willingboro",
         "state": "NJ",
         "zip": "08046",
         "phone": "(609)835-1111",
         "hours": null,
         "website": null,
-        "notes": "Serves: Burlington County"
+        "notes": "Serves: Burlington County",
+        "lat": 40.0268,
+        "lng": -74.8674
       },
       {
         "name": "Cathedral Of Love Food Pantry",
@@ -4747,15 +4740,17 @@
         "lng": -74.7523342
       },
       {
-        "name": "Princeton Moblie Food Pantry",
-        "address": null,
-        "city": null,
+        "name": "Princeton Mobile Food Pantry",
+        "address": "237 N Harrison St",
+        "city": "Princeton",
         "state": "NJ",
-        "zip": null,
-        "phone": null,
+        "zip": "08540",
+        "phone": "(609) 955-6067",
         "hours": null,
-        "website": "https://www.pmfpantry.org/",
-        "notes": null
+        "website": "https://www.pmfpantry.org",
+        "notes": null,
+        "lat": 40.3574,
+        "lng": -74.658
       },
       {
         "name": "New Bethel Holy Church",
@@ -5242,14 +5237,16 @@
       },
       {
         "name": "Matawan Community Food Pantry",
-        "address": null,
-        "city": null,
+        "address": "201 Broad St",
+        "city": "Matawan",
         "state": "NJ",
-        "zip": null,
-        "phone": null,
-        "hours": null,
+        "zip": "07747",
+        "phone": "(732) 566-2663",
+        "hours": "Last Saturday of the month 8:00am - 12:00pm",
         "website": null,
-        "notes": null
+        "notes": null,
+        "lat": 40.4165,
+        "lng": -74.229
       },
       {
         "name": "FPC Food Pantry",
@@ -6309,17 +6306,6 @@
         "notes": "Serves: Ocean County",
         "lat": 40.0354591,
         "lng": -74.1431639
-      },
-      {
-        "name": "* Formerly Care and Share we changed the name.",
-        "address": null,
-        "city": null,
-        "state": "NJ",
-        "zip": null,
-        "phone": null,
-        "hours": null,
-        "website": null,
-        "notes": null
       },
       {
         "name": "Lacey Food Bank Incorporated",
@@ -7529,14 +7515,16 @@
       },
       {
         "name": "New Life Food Pantry",
-        "address": null,
-        "city": null,
+        "address": "56 Main Street",
+        "city": "Helmetta",
         "state": "NJ",
-        "zip": null,
-        "phone": null,
-        "hours": null,
-        "website": null,
-        "notes": null
+        "zip": "08828",
+        "phone": "732-521-0169",
+        "hours": "Tues 10:00am - 12:00pm, Thurs 12:00pm - 2:00pm (by appointment)",
+        "website": "https://www.newlifefoodpantry.org",
+        "notes": null,
+        "lat": 40.3775,
+        "lng": -74.4206
       },
       {
         "name": "Portland Food Bank",
