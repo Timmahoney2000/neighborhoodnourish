@@ -599,6 +599,16 @@ display: block;
     transform: translateY(-1px);
 }
 
+.contact__email {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    margin-top: -0.5rem;
+}
+
+.contact__email strong {
+    color: var(--color-text-mid);
+    user-select: all;
+}
 
 /*---- Responsive ----*/
 @media (max-width: 640px) {
