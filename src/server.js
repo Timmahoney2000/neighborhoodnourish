@@ -20,6 +20,8 @@ const allowedOrigins = process.env.FRONTEND_ORIGIN
  "http://localhost:8080", "http://127.0.0.1:8080",
   "https://neighborhoodnourish.vercel.app",
   "https://neighborhoodnourish-8k0df1rdb-tims-projects-43918398.vercel.app",
+  "https://neighborhoodnourish.org",
+  "https://www.neighborhoodnourish.org",
 ];
 
 app.use(cors({
