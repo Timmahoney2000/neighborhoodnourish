@@ -292,18 +292,25 @@ async function reverseGeocode(lat, lng) {
 // ── 9. Search Handlers ─────────────────────────────────────────────────────────
 
 async function searchByZip(zip) {
-  const county = countyFromZip(zip);
-
-  if (!county) {
-    showUserError("That doesn't look like a New Jersey ZIP code. Please try again.");
-    return;
-  }
-
   showLoading();
 
   try {
-    // Get coords for this ZIP so results sort by distance
-    const coords  = await getZipCoords(zip);
+    // Get coords first - use them for both county lookup and distance sorting
+    const coords = await getZipCoords(zip);
+
+    if (!coord) {
+      showUserError("Couldn't find that ZIP code. Please try again.");
+      return;
+    }
+
+    // Reverse geocode to get the correct county from actual coordinates
+    const county = await reverseGeocode(coords.lat, coords.lng);
+
+    if (!county) {
+      showUserError("That doesn't look like a New Jersey ZIP code. Please try again.");
+      return;
+    }
+
     const results = await fetchByCounty(county, coords);
     allResults = results;
     renderResults(results);
@@ -311,9 +318,10 @@ async function searchByZip(zip) {
     scrollToResults();
   } catch (err) {
     showUserError(err.message);
-    console.error(err);
+    console.err(err);
+   }
   }
-}
+
 
 async function searchByLocation() {
   if (!navigator.geolocation) {
