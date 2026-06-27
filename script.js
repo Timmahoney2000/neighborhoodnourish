@@ -298,7 +298,7 @@ async function searchByZip(zip) {
     // Get coords first - use them for both county lookup and distance sorting
     const coords = await getZipCoords(zip);
 
-    if (!coord) {
+    if (!coords) {
       showUserError("Couldn't find that ZIP code. Please try again.");
       return;
     }
@@ -318,7 +318,7 @@ async function searchByZip(zip) {
     scrollToResults();
   } catch (err) {
     showUserError(err.message);
-    console.err(err);
+    console.error(err);
    }
   }
 
